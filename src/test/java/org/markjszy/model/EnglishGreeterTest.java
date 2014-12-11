@@ -13,7 +13,17 @@ public class EnglishGreeterTest {
         p.setFirstName("Bill");
         p.setLastName("Brasky");
         p.setLocation("Chicago");
-
+        
         assertEquals(EnglishGreeter.greet(p), "Hello, Bill!");
+    }
+    
+    @Test
+    public void testMorningGreeting() {
+        Person p = new Person();
+        p.setFirstName("Bill");
+        p.setLastName("Brasky");
+        p.setLocation("Chicago");
+        
+        assertEquals(EnglishGreeter.morningGreet(p), "Good morning, Bill!");
     }
 }

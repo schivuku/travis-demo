@@ -7,4 +7,8 @@ public class EnglishGreeter {
     public static String greet(Person p) {
         return "Hello, " + p.getFirstName() + "!";
     }
+    
+    public static String morningGreet(Person p) {
+        return "Good morning, " + p + "!";
+    }
 }
