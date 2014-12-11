@@ -9,6 +9,6 @@ public class EnglishGreeter {
     }
     
     public static String morningGreet(Person p) {
-        return "Good morning, " + p + "!";
+        return "Good morning, " + p.getFirstName() + "!";
     }
 }
