@@ -26,6 +26,6 @@ public class MathTest {
     @Test
     public void testAddsMixedSigns() {
         assertEquals(Math.addNums(1, -10), -9);
-        assertEquals(Math.addNums(-40, 60), 20);
+        assertEquals(Math.addNums(-30, 60), 30);
     }
 }
