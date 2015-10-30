@@ -5,7 +5,7 @@ package org.markjszy.model;
  */
 public class EnglishGreeter {
     public static String greet(Person p) {
-        return "Hello, " + p.getFirstName() + "!";
+        return "Hello, " + "Sreeram" + "!";
     }
     
     public static String morningGreet(Person p) {
